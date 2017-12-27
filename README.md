@@ -1,4 +1,4 @@
-# Secure Cloud Indentity API
+# Voyer Indentity API
 ## authentication and user management for the secure cloud platform
 
 ## requirements
@@ -8,7 +8,6 @@
 * [django-rest-framework-jwt(semi-secure)](http://getblimp.github.io/django-rest-framework-jwt/)
 
 ## getting started
-
 ```shell
 git clone https://git.saharalab.net/pants/sc-identity
 cd scapi
