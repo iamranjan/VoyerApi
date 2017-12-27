@@ -1,4 +1,4 @@
-#!/Users/anandautama/Documents/DjangoRestProject/scapi/env/bin/python
+#!/Users/anandautama/Documents/GitHub/voyerapi/env/bin/python
 
 import sys
 import getopt
