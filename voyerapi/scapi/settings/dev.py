@@ -10,15 +10,18 @@ JENKINS = {
     'USERNAME': 'admin',
     'PASSWORD': 'mesos123',
 }
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        # add the db called scapi_dev
-        'NAME': 'scapi_dev',
-        # user called scapi for the permission
-        'USER': 'scapi',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
-        'PORT': 5432,
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         # add the db called scapi_dev
+#         'NAME': 'scapi_dev',
+#         # user called scapi for the permission
+#         'USER': 'scapi',
+#         'PASSWORD': 'password',
+#         'HOST': 'localhost',
+#         'PORT': 5432,
+#     }
+# }
+
+import dj_database_url;
+DATABASES['default']=dj_database_url.config();
