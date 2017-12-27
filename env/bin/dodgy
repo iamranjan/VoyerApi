@@ -1,0 +1,4 @@
+#!/Users/anandautama/Documents/DjangoRestProject/scapi/env/bin/python3.6
+
+import dodgy.run
+dodgy.run.run()

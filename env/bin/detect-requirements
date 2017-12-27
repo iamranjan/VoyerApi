@@ -1,0 +1,3 @@
+#!/Users/anandautama/Documents/DjangoRestProject/scapi/env/bin/python3.6
+from requirements_detector.run import run
+run()

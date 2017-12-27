@@ -1,0 +1,43 @@
+version: '2'
+
+services:
+  postgres:
+    extends:
+      file: docker-common.yml
+      service: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./docker/postgres/init-user-db.sh:/docker-entrypoint-initdb.d/init-user-db.sh
+  rabbitmq:
+    extends:
+      file: docker-common.yml
+      service: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_VHOST: "jobs"
+  backend:
+    extends:
+      file: docker-common.yml
+      service: django
+    links:
+      - postgres
+      - rabbitmq
+    entrypoint:
+      - /django-entrypoint.sh
+    ports:
+      - 8000:8000
+  worker:
+    extends:
+      file: docker-common.yml
+      service: worker
+    links:
+      - postgres
+      - rabbitmq
+    entrypoint:
+      - /worker-entrypoint.sh
+    depends_on:
+      - rabbitmq
+    dns:
+      - 192.168.71.201
+    dns_search:
+      - mgmt.pants.net

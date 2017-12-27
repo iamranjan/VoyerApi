@@ -1,0 +1,121 @@
+[
+{
+  "model": "identity.user",
+  "fields": {
+    "username": "fizz",
+    "last_name": "LastName",
+    "last_login": "2015-12-29T00:57:23.201Z",
+    "date_joined": "2015-12-29T00:57:23.201Z",
+    "date_updated": "2015-12-29T00:57:23.201Z",
+    "confirmed_email": true,
+    "first_name": "Fizz",
+    "email": "fizz@gmail.com",
+    "gender": "M",
+    "is_active": true,
+    "password": "pbkdf2_sha256$36000$HeXRvjgCGeJe$Oii/6grD1v7CTMtSaudkS6vcLwwc2Ia3LV1FOKfhQXM=",
+    "is_staff": true,
+    "is_superuser": true,
+    "activation_key": "64f5b041-81ed-4251-bf62-54b9c0a14848"
+  },
+  "pk": "7c32d60d-6312-42f6-a73a-22da56b07374"
+}, {
+  "model": "identity.user",
+  "fields": {
+    "username": "snap",
+    "last_name": "LastName",
+    "last_login": "2015-11-29T00:57:23.201Z",
+    "date_joined": "2015-11-29T00:57:23.201Z",
+    "date_updated": "2015-11-29T00:57:23.201Z",
+    "confirmed_email": true,
+    "first_name": "Snap",
+    "email": "snap@gmail.com",
+    "gender": "F",
+    "is_active": true,
+    "password": "pbkdf2_sha256$36000$AzTfVWttTnG4$lFze/EdRyCldbetfgBU9ln7RbMuELpX0muJsh8Yzc3E=",
+    "is_staff": true,
+    "is_superuser": true,
+    "activation_key": "64f5b041-81ed-4251-bf62-54b9c0a14849"
+  },
+  "pk": "7c32d60d-6312-42f6-a73a-22da56b07375"
+},
+  {
+  "model": "identity.user",
+  "fields": {
+    "username": "demo",
+    "last_name": "demo",
+    "last_login": "2015-12-29T00:56:23.201Z",
+    "date_joined": "2015-12-29T00:56:23.201Z",
+    "date_updated": "2015-12-29T00:56:23.201Z",
+    "confirmed_email": true,
+    "first_name": "demo",
+    "email": "demo@gmail.com",
+    "gender": "F",
+    "is_active": true,
+    "password": "pbkdf2_sha256$36000$LpNgDNQnEua5$3jn2XVc0ss69ozHVdheGPWC5H2HBLJv/U63ejDd/EqA=",
+    "is_staff": true,
+    "is_superuser": true,
+    "activation_key": "64f5b041-81ed-4251-bf62-54b9c0a14858"
+  },
+  "pk": "7c32d60d-6312-42f6-a73a-22da56b07372"
+},
+  {
+  "model": "identity.user",
+  "fields": {
+    "username": "networks",
+    "last_name": "networks",
+    "last_login": "2015-12-29T01:56:23.201Z",
+    "date_joined": "2015-12-29T01:56:23.201Z",
+    "date_updated": "2015-12-29T01:56:23.201Z",
+    "confirmed_email": true,
+    "first_name": "networks",
+    "email": "networks@gmail.com",
+    "gender": "F",
+    "is_active": true,
+    "password": "pbkdf2_sha256$36000$FgNLUnTWRSiW$x4C06q00mNDGNLVomITElOeCmmjYg45lWa7Z0Ekqzx0=",
+    "is_staff": true,
+    "is_superuser": true,
+    "activation_key": "64f5b041-81ed-4251-bf62-54b9c0a14258"
+  },
+  "pk": "7c32d60d-6312-42f6-a73a-22da56b07379"
+},
+  {
+  "model": "identity.user",
+  "fields": {
+    "username": "pipeline",
+    "last_name": "pipeline",
+    "last_login": "2015-12-29T11:56:23.201Z",
+    "date_joined": "2015-12-29T11:56:23.201Z",
+    "date_updated": "2015-12-29T11:56:23.201Z",
+    "confirmed_email": true,
+    "first_name": "pipeline",
+    "email": "pipeline@gmail.com",
+    "gender": "F",
+    "is_active": true,
+    "password": "pbkdf2_sha256$36000$7sqTFO4hjYPZ$AovI7xvKGNdbaZk/14PZ+Q5duedXMp7X7TocRcrC5bg=",
+    "is_staff": true,
+    "is_superuser": true,
+    "activation_key": "64f5b041-81ed-4251-bf62-54b9c0a14248"
+  },
+  "pk": "7c32d60d-6312-42f6-a73a-22da56b97379"
+},
+  {
+  "model": "identity.user",
+  "fields": {
+    "username": "samnuth1",
+    "last_name": "nuth",
+    "last_login": "2015-12-29T00:56:23.201Z",
+    "date_joined": "2015-12-29T00:56:23.201Z",
+    "date_updated": "2015-12-29T00:56:23.201Z",
+    "confirmed_email": true,
+    "first_name": "sam",
+    "email": "samnuth1@gmail.com",
+    "gender": "F",
+    "is_active": true,
+    "password": "pbkdf2_sha256$36000$QXNErqKQCr1Z$Tep5so2RQl98sUuIq48r7yNUk3Y2ELi0Wj9hVHVio24=",
+    "is_staff": true,
+    "is_superuser": true,
+    "activation_key": "64f5b041-81ed-4251-bf62-54b920a14958"
+  },
+  "pk": "7c32d60d-6312-42f6-a73a-22da56b07370"
+}
+]

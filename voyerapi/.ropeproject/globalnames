@@ -1,0 +1,6 @@
+€}q(Uapi.serializers]q(UGroupSerializerqUUserLoginSerializerqUUserRegistrationSerializerqUUserSerializerqUUserLogoutSerializerqeUsc-identity.settings]q(U	DATABASESq	UROOT_URLCONFq
+ULANGUAGE_CODEqUUSE_I18NqU
+SECRET_KEYqUCORS_ORIGIN_WHITELISTqU	TEMPLATESqUCORS_ALLOW_HEADERSqU	TIME_ZONEqUWSGI_APPLICATIONqUALLOWED_HOSTSqUBASE_DIRqUAUTH_PASSWORD_VALIDATORSqU
+STATIC_URLqUCORS_ALLOW_METHODSqUSWAGGER_SETTINGSqUUSE_L10NqUDEBUGqUUSE_TZqUINSTALLED_APPSqU
+MIDDLEWAREqU	REST_KNOXqUREST_FRAMEWORKqeUapi.urls]q Uurlpatternsq!aU	api.views]q"(UUserViewSetq#UUserLoginViewq$UUserLogoutViewq%UUserRegisterViewq&UGroupViewSetq'ULogoutAllViewq(eUutils]q)(Uvalidate_emailq*UAtomicMixinq+eUmanage]Uapi.apps]q,U	ApiConfigq-aUsc-identity.wsgi]q.Uapplicationq/aU	api.tests]Uapi.signals]q0Uinit_new_userq1aUapi]q2Udefault_app_configq3aUsc-identity]Uapi.migrations]U	api.admin]U
+api.models]q4(UMyUserManagerq5UUserq6eUsc-identity.urls]q7(h!Uschema_viewq8eu.
