@@ -9,7 +9,6 @@
 
 ## getting started
 ```shell
-git clone https://git.saharalab.net/pants/sc-identity
 cd scapi
 virtualenv -p `which python3.6` ./env
 source ./env/bin/activate
