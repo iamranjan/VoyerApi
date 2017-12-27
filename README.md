@@ -6,6 +6,7 @@
 * [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
 * [django-rest-knox(mega-secure)](https://james1345.github.io/django-rest-knox/installation/)
 * [django-rest-framework-jwt(semi-secure)](http://getblimp.github.io/django-rest-framework-jwt/)
+* https://postgresapp.com/ and get the django server to communicate with the database to be hosted somewhere
 
 ## getting started
 ```shell
