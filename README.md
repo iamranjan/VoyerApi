@@ -1,5 +1,5 @@
 # Voyer Indentity API
-## authentication and user management for the secure cloud platform
+## authentication and user management for the travelling platform
 
 ## requirements
 * python 3.6.1+
