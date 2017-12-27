@@ -20,7 +20,7 @@ from django.conf.urls import url
 # from inventory.views import InventoryView, AllInventoryView, SubsetInventoryView
 # from django.utils.translation import ugettext_lazy as _
 
-schema_view = get_swagger_view(title='Secure Cloud API')
+schema_view = get_swagger_view(title='Voyer API')
 
 urlpatterns = [
     url(r'^$', schema_view),
@@ -28,8 +28,6 @@ urlpatterns = [
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^api/v1/auth/', include('identity.urls', namespace='auth')),
     url(r'^api/v1/jobs/', include('jobs.urls', namespace='jobs')),
-    url(r'^api/v1/deployment/', include('deployment.urls', namespace='deployment')),
-    url(r'^api/v1/inventory/', include('inventory.urls', namespace='inventory')),
     url(r'^api/v1/cp/', include('cp.urls', namespace='cp')),
     url(r'^admin/', admin.site.urls),
 ]
