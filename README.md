@@ -98,6 +98,7 @@ curl -XPOST -H 'Authentication: Token <insert token allocated from /login endpoi
   * docker-compose.yml
 * Add deployment scripts for local and prod
 * Add instructions for getting started with rabbitmq & celery
+
 ## References
 [ 1 ] (https://github.com/Seedstars/django-react-redux-base)
 [ 2 ] (https://github.com/geezhawk/django-react-auth)
